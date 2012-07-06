@@ -3,7 +3,7 @@
 Renders Gherkin (Cucumber, Behat, ..) feature files from the source code-repository into the Redmine project.
 This acts as an automatic publishing mechanism of the "living documentation" of a project.
 
-![Behat Example Screen](https://github.com/beberlei/redmine_gherkinviewer/tree/master/screen_behat.png) 
+![Behat Example Screen](https://github.com/beberlei/redmine_gherkinviewer/raw/master/screen_behat.png) 
 
 ## Installation
 
