@@ -5,6 +5,10 @@ This acts as an automatic publishing mechanism of the "living documentation" of 
 
 ![Behat Example Screen](https://github.com/beberlei/redmine_gherkinviewer/raw/master/screen_behat.png) 
 
+## Prerequsites
+
+Tested with Redmine 1.4
+
 ## Installation
 
 1. Change to "vendor/plugins"
