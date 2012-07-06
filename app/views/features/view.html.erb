@@ -1,0 +1,27 @@
+<% html_title "Features" %>
+
+<h2>Features</h2>
+
+<p>List of all featuers in <%= @project.name %> application:</p>
+
+<%= @output %>
+
+<% content_for :sidebar do %>
+<h3>Features</h3>
+
+<ul>
+    <% for feature in @features %>
+    <li><a href="#<%= feature.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '') %>"><%= feature %></a></li>
+    <% end %>
+</ul>
+
+<h3>Tags</h3>
+
+<ul>
+    <% for tag in @tags %>
+        <li><a href="#<%= tag.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '') %>"><%= tag %></a></li>
+    <% end %>
+</ul>
+
+<% end %>
+
